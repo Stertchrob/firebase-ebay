@@ -1,0 +1,162 @@
+[debug] [2019-01-03T20:26:02.290Z] ----------------------------------------------------------------------
+[debug] [2019-01-03T20:26:02.292Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2019-01-03T20:26:02.292Z] CLI Version:   6.2.2
+[debug] [2019-01-03T20:26:02.292Z] Platform:      darwin
+[debug] [2019-01-03T20:26:02.292Z] Node Version:  v10.14.1
+[debug] [2019-01-03T20:26:02.293Z] Time:          Thu Jan 03 2019 14:26:02 GMT-0600 (Central Standard Time)
+[debug] [2019-01-03T20:26:02.293Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-01-03T20:26:02.301Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-01-03T20:26:02.301Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/stretchrob11/firebase-ebay
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2019-01-03T20:26:08.098Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/misc-ebay  
+ 
+[debug] [2019-01-03T20:26:08.372Z] <<< HTTP RESPONSE 200
+[info] i  Using project misc-ebay (misc-ebay)
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2019-01-03T20:26:54.488Z] Error: ENOTDIR: not a directory, open '/Users/stretchrob11/firebase-ebay/enter-item.html/404.html'
+    at Object.openSync (fs.js:436:3)
+    at Object.writeFileSync (fs.js:1187:35)
+    at Object.createFileSync (/usr/local/lib/node_modules/firebase-tools/node_modules/fs-extra/lib/ensure/file.js:34:6)
+    at Config.writeProjectFile (/usr/local/lib/node_modules/firebase-tools/lib/config.js:160:8)
+    at /usr/local/lib/node_modules/firebase-tools/lib/config.js:179:18
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-01-03T20:27:16.938Z] ----------------------------------------------------------------------
+[debug] [2019-01-03T20:27:16.940Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2019-01-03T20:27:16.940Z] CLI Version:   6.2.2
+[debug] [2019-01-03T20:27:16.940Z] Platform:      darwin
+[debug] [2019-01-03T20:27:16.940Z] Node Version:  v10.14.1
+[debug] [2019-01-03T20:27:16.941Z] Time:          Thu Jan 03 2019 14:27:16 GMT-0600 (Central Standard Time)
+[debug] [2019-01-03T20:27:16.941Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-01-03T20:27:16.949Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-01-03T20:27:16.949Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/stretchrob11/firebase-ebay
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2019-01-03T20:27:20.620Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/misc-ebay  
+ 
+[debug] [2019-01-03T20:27:20.840Z] <<< HTTP RESPONSE 200
+[info] i  Using project misc-ebay (misc-ebay)
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2019-01-03T20:27:43.267Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2019-01-03T20:27:43.323Z] <<< HTTP RESPONSE 200
+[debug] [2019-01-03T20:27:43.405Z] Error: ENOTDIR: not a directory, open '/Users/stretchrob11/firebase-ebay/enter-item.html/index.html'
+    at Object.openSync (fs.js:436:3)
+    at Object.writeFileSync (fs.js:1187:35)
+    at Object.createFileSync (/usr/local/lib/node_modules/firebase-tools/node_modules/fs-extra/lib/ensure/file.js:34:6)
+    at Config.writeProjectFile (/usr/local/lib/node_modules/firebase-tools/lib/config.js:160:8)
+    at /usr/local/lib/node_modules/firebase-tools/lib/config.js:179:18
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-01-03T20:31:54.826Z] ----------------------------------------------------------------------
+[debug] [2019-01-03T20:31:54.829Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2019-01-03T20:31:54.829Z] CLI Version:   6.2.2
+[debug] [2019-01-03T20:31:54.829Z] Platform:      darwin
+[debug] [2019-01-03T20:31:54.829Z] Node Version:  v10.14.1
+[debug] [2019-01-03T20:31:54.830Z] Time:          Thu Jan 03 2019 14:31:54 GMT-0600 (Central Standard Time)
+[debug] [2019-01-03T20:31:54.830Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-01-03T20:31:54.841Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-01-03T20:31:54.841Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/stretchrob11/firebase-ebay
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2019-01-03T20:31:59.035Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/misc-ebay  
+ 
+[debug] [2019-01-03T20:31:59.244Z] <<< HTTP RESPONSE 200
+[info] i  Using project misc-ebay (misc-ebay)
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2019-01-03T20:32:13.286Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2019-01-03T20:32:13.336Z] <<< HTTP RESPONSE 200
+[debug] [2019-01-03T20:32:13.417Z] Error: ENOTDIR: not a directory, open '/Users/stretchrob11/firebase-ebay/enter-item.html/index.html'
+    at Object.openSync (fs.js:436:3)
+    at Object.writeFileSync (fs.js:1187:35)
+    at Object.createFileSync (/usr/local/lib/node_modules/firebase-tools/node_modules/fs-extra/lib/ensure/file.js:34:6)
+    at Config.writeProjectFile (/usr/local/lib/node_modules/firebase-tools/lib/config.js:160:8)
+    at /usr/local/lib/node_modules/firebase-tools/lib/config.js:179:18
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[error] 
+[error] Error: An unexpected error has occurred.
